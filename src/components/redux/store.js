@@ -14,7 +14,7 @@ import { contactsReducer } from './contactsSlice';
 import { filtersReducer } from './filtersSlice';
 
 const persistConfig = {
-  key: 'contacts',
+  key: 'root',
   storage,
 };
 
